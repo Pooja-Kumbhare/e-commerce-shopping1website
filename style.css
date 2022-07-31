@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata')
+*{
+    margin: 10%;
+    padding: 10%;
+    box-sizing: border-box;
+    font-family: 'spartan',sans-serif;
+}
+
+body {
+    width: 100%;
+}
+.logo{
+    margin-left: 50px;
+    padding-top: 5px;
+    width: 200px;
+    height: 150px;
+    align-self: flex-start ;
+    align-items: center;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px, 80px;
+    background: rgb(231, 219, 105);
+    box-shadow: 0 5px 15x rgba(5, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{ margin: 41px 0;}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    padding: 0 30px;
+    list-style: none ;
+    position: relative;
+    
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700px;
+    color: black;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(137, 43, 226);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+content: "";
+width: 70%;
+height: 2px;
+background: rgb(153, 57, 231);
+position: absolute;
+bottom: -4px;
+left: 20px;
+}
+#root{
+    background: url("img/backimage.jpg");
+    width: 92.5%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+#root{
+
+}
+#root h3{
+    margin-topt: 100px;
+    color: rgb(92, 3, 3);
+    font-size: 40px;
+}
+#root  h1{
+ padding-bottom: 25px;
+ color: rgb(92, 3, 3);
+ font-size: 70px;
+ line-height: 64px;
+}
+#root h2{
+    padding-bottom: 25px;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-right: 120px;
+}
+#root p{
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+#root button{
+    color: rgb(5, 0, 1);
+    border-radius: 5px;
+    padding: 15px 80px 15px 65px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#root button:hover{
+    background-color: #3e8e41
+}
+#root button:hover{
+    transform: translateY(4px);
+}
+#service{display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+;}
+#service .features {
+    width: 180px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+#service .features img{
+    width: 180px;
+}
+#service .features img .f2{
+    vertical-align: middle;
+    align-items: center;
+    justify-content:center;
+}
+#service .features img:hover{
+    box-shadow: 10px 10px 54px rgba(90, 59, 65, 0.5);
+}
+#service .features h5{
+    display: inline;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: black;
+    background-color: bisque;
+    
+}
+#product .brand h2{
+    background-color: rgb(212, 210, 203);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 9px 8px 6px 8px;
+}
+#product .wear h2{
+    background-color: rgb(255, 225, 127);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 9px 8px 6px 8px;
+}
+#product .pro-container1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#product .women-fashion{
+    width: 23%;
+    min-width: 250px;
+    padding: 20px 12px 20px 20px;
+    border: 1px solid rgb(214, 214, 209);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product .women-fashion:hover{
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.0.6);
+}
+#product .women-fashion img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+#product .women-fashion .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+#product .women-fashion .des span{
+    color: darkgray;
+    font-size: 12px;
+}
+#product .women-fashion .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+#product .women-fashion .des  .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50p[x];
+    background-color:#e2e7e2 ;
+    font-weight: 500;
+    color: rgb(26, 128, 60);
+    border:1px solid rgb(197, 193, 193) ;
+    bottom: 20px;
+    right: 10px;
+}
+#product .pro-container2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#product .men-fashion{
+    width: 23%;
+    min-width: 250px;
+    padding: 20px 12px 20px 20px;
+    border: 1px solid rgb(214, 214, 209);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product .men-fashion:hover{
+    box-shadow: 20px 20px 30px rgb(0, 0, 0,0.0.6);
+}
+#product .men-fashion img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+#product .men-fashion .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+#product .men-fashion .des span{
+    color: darkgray;
+    font-size: 12px;
+}
+#product .men-fashion .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+#product .men-fashion .des  .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50p[x];
+    background-color:#e2e7e2 ;
+    font-weight: 500;
+    color: rgb(26, 128, 60);
+    border:1px solid rgb(197, 193, 193) ;
+    bottom: 20px;
+    right: 10px;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.5) ,url('img/product/11.jpg')) ;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position:center ;
+}
+#banner h3{
+  color: aliceblue;  
+  font-size: 20px; 
+}
