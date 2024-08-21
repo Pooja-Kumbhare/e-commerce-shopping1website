@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px, 80px;
-    
+    background-color:green;
     box-shadow: 0 5px 15x rgba(5, 0, 0, 0.6);
     z-index: 999;
     position: sticky;
