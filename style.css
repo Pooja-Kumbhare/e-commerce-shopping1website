@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px, 80px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCu6cifqQ2TU_7qyhf9GOx7D70aWb19cIJfw&s");
+    
     box-shadow: 0 5px 15x rgba(5, 0, 0, 0.6);
     z-index: 999;
     position: sticky;
@@ -31,6 +31,7 @@ body {
 }
 .section-p1{
     padding: 40px 80px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCu6cifqQ2TU_7qyhf9GOx7D70aWb19cIJfw&s");
 }
 .section-m1{ margin: 41px 0;}
 #navbar{
