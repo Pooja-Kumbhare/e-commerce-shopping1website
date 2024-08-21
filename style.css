@@ -31,7 +31,7 @@ body {
 }
 .section-p1{
     padding: 40px 80px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCu6cifqQ2TU_7qyhf9GOx7D70aWb19cIJfw&s");
+    
     background-size:cover;
 }
 .section-m1{ margin: 41px 0;}
@@ -68,7 +68,7 @@ bottom: -4px;
 left: 20px;
 }
 #root{
-    background: url("img/backimage.jpg");
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCu6cifqQ2TU_7qyhf9GOx7D70aWb19cIJfw&s");
     width: 92.5%;
     height: 100vh;
     background-size: cover;
